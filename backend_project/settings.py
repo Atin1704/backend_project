@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ✅ No SECRET_KEY
 # Django will throw a warning, but it'll still work for non-production use
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']  # Allowing all hosts
 
