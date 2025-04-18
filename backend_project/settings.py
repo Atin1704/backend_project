@@ -8,6 +8,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = True
 
+SECRET_KEY = 'web-dev'
+
 ALLOWED_HOSTS = ['*']  # Allowing all hosts
 
 # Application definition
